@@ -1,0 +1,5 @@
+on fish:
+    if "%region at player%" contains "spawn":
+        "%region at player%" does not contain "fish"
+        cancel event
+        send "&cYou can only fish at the &b&lFISHING BRIDGE&c while at spawn."

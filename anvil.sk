@@ -1,0 +1,8 @@
+options:
+
+    Permission: anvil.bypass
+ 
+anvil rename:
+    player doesn't have permission "{@Permission}":
+        cancel event
+        send "&cYou may not rename items!"
